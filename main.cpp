@@ -1,11 +1,11 @@
-int joku(int hah)
-{
-	return hah + 100;
-}
+import example_module;
 
 int main(int argc, char ** argv)
 {
-	int j = joku(joku(3));
-	j++;
+	example_class asdf;
+    asdf.do_something();
+
+    auto result = example_function(100);
+
 	return 0;
 }
